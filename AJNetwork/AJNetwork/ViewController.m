@@ -19,5 +19,26 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)GETClick:(UIButton *)sender
+{
+    
+}
+- (IBAction)POSTClick:(UIButton *)sender
+{
+    
+}
+- (IBAction)DELETEClick:(UIButton *)sender
+{
+    
+}
+- (IBAction)PUTClick:(UIButton *)sender
+{
+    
+}
+- (IBAction)BTNClick:(UIButton *)sender
+{
+    
+}
+
 
 @end

@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "AJNetFrame.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    AJNetManagerShare.codeKey = @"jjk_resultCode";
+    AJNetManagerShare.resultKey = @"jjk_result";
+    AJNetManagerShare.megKey = @"jjk_resultMsg";
+    AJNetManagerShare.domainKey = @"apptest.jijiankang.cn";
+    
     return YES;
 }
 
